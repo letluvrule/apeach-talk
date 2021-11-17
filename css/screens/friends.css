@@ -1,0 +1,46 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 15px 0px;
+  width: 90vw;
+  margin: 10px auto;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-group__name {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--hot-pink);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어피치톡 : 채팅</title>
+    <link rel="stylesheet" href="../css/screens/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>LG U+</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>21:00</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-comment-medical fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-2x"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component__column">
+          <img
+            src="../screenshots/ryan-profile.png"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">라이언</h4>
+            <h6 class="user-component__subtitle">보고 싶어! 사랑해!</h6>
+          </div>
+          <div class="chat-info">
+            <div class="chat-info__time">11:00</div>
+            <div class="chat__notification">1</div>
+          </div>
+        </div>
+      </a>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/tube-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">튜브</h4>
+          <h6 class="user-component__subtitle">우리 야구장 갈래?</h6>
+        </div>
+        <div class="chat-info">
+          <div class="chat-info__time">10:00</div>
+          <div class="chat__notification">1</div>
+        </div>
+      </div>
+
+      <div class="user-component__column">
+        <img
+          src="../screenshots/korn-profile.png"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">콘</h4>
+          <h6 class="user-component__subtitle">대학원 과제는 다 했어? :(</h6>
+        </div>
+        <div class="chat-info">
+          <div class="chat-info__time">09:00</div>
+          <div class="chat__notification">1</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">3</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification--find"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <img src="../screenshots/apeach-profile.png" />
+      <span>화면을 줄여주세요</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

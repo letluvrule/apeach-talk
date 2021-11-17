@@ -1,0 +1,28 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+@import "variables.css";
+
+/* Components */
+@import "../components/status-bar.css";
+@import "../components/nav-bar.css";
+@import "../components/screen-header.css";
+@import "../components/user-component.css";
+@import "../components/user-component__music.css";
+@import "../components/no-mobile.css";
+
+/* screens */
+@import "login.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+
+body {
+  font-family: "DM Sans", sans-serif;
+  word-break: keep-all;
+  background-color: var(--pink);
+  color: #2f363e;
+  height: 200vh;
+}
