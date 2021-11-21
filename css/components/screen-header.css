@@ -8,7 +8,6 @@
 }
 
 .screen-header__title {
-  transform: translateX(20px);
   font-size: 30px;
   font-weight: 600;
 }
