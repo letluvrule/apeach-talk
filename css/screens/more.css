@@ -51,8 +51,8 @@
 
 .more-component__information {
   color: red;
-  width: 14px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
   border: red 2px solid;
   border-radius: 50%;
   display: flex;
