@@ -22,7 +22,7 @@
 
 .chat-screen-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 60px 30px 20px 10px;
   width: 90vw;
@@ -31,15 +31,23 @@
   position: fixed;
 }
 
-.chat-screen-header__icons h1 {
+.chat-screen-header__column {
   width: 33%;
-  text-align: center;
 }
 
-.chat-screen-header__icons {
+.chat-screen-header__column:nth-child(2) {
   display: flex;
-  justify-content: space-between;
-  width: 15%;
+  justify-content: center;
+}
+
+.chat-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.chat-screen-header__column .fa-search {
+  margin: 15px;
 }
 
 .main-chat {
