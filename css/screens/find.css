@@ -55,6 +55,7 @@
   flex-direction: column;
   justify-content: center;
   border-bottom: var(--main-border);
+  height: 150px;
 }
 
 .recommended-friends__list {
